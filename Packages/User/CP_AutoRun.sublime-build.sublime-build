@@ -1,0 +1,4 @@
+{
+    "shell_cmd": "cmd /c \"g++ -std=c++17 -O2 -Wall -Wextra main.cpp -o main.exe && main.exe < inputf.in > outputf.out && if exist expected.txt (fc outputf.out expected.txt) else (echo No expected.txt found.)\"",
+    "working_dir": "${folder}"
+}
