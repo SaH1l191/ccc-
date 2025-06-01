@@ -12,23 +12,32 @@ using namespace std::chrono;
 #define fastio                   \
     ios::sync_with_stdio(false); \
     cin.tie(NULL)
-#define nl '\n'
+
 #define rep(i, l, r) for (int i = l; i < r; i++)
+#define nl '\n'
+
+//vectors
+#define vvi vector<vector<int>>
 #define vl vector<long long>
+#define vvl vector<vector<long long>>
+#define vi vector<int>
+#define pii pair<int,int>
+#define pll pair<long,long>
+#define pb push_back
+
+//ds
 #define usi unordered_set<int>
 #define umi unordered_map<int, int>
 #define vii vector<pair<int,int>>
+#define minpq priority_queue<int, vector<int>, greater<int>>
 #define si stack<int>
-#define pii pair<int,int>
-#define vvi vector<vector<int>>
-#define vi vector<int>
+
+
 #define all(v)  v.begin(), v.end()
 #define allr(v) v.rbegin(),v.rend()
 #define Size(container) ((container).size())
-#define pb push_back
-#define minpq priority_queue<int, vector<int>, greater<int>>
-#define pq priority_queue<int>
-#define vll vector<vector<long long>>
+
+
 using namespace std;
 using ll = long long;
 
@@ -68,3 +77,4 @@ int main() {
     cerr << "Time taken: " << duration.count() << " ms\n";
     return 0;
 }
+ 
