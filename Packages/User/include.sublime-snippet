@@ -5,8 +5,7 @@
 // YES/NO for cout(snippet)
 // include for cptemplate(snippet)
 #include <bits/stdc++.h>
-#include "debug/debug.h"// use debug(variable)
-#include "debug/modint.h" // dont know
+// #include "debug/modint.h" // dont know
 #include <chrono>
 using namespace std::chrono;
 // string,sstream,vector,algorithm,limits,math.h,stack,set,unordered_map,climits,string,numeric,<cctype> (string toupper,lower)
