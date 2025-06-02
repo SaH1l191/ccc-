@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-int n;
-cin >> n;
-vi a(n);
-rep(i, 0, n) cin >> a[i];
+int n; 
+   cin>>n; 
+   vec<int> a(n);  
+   cin>> a;
 ]]></content>
     <tabTrigger>read</tabTrigger>
     <scope>source.c++</scope>
